@@ -32,7 +32,7 @@ public class Fabricante {
         this.pais = pais;
     }
 
-    public static Fabricante FabricaMayorVentas() {
+    public static Fabricante fabricaMayorVentas() {
         int x = 0;
         int cantidadVehiculos = 0;
         for (int i = 0; i < fabricantes.size(); i++) {
