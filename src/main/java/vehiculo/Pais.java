@@ -1,5 +1,13 @@
 package vehiculo;
 
 public class Pais {
-    String nombre;
+    private String nombre;
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 }
