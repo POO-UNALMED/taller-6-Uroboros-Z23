@@ -22,6 +22,7 @@ public class Vehiculo {
         this.traccion = traccion;
         this.frabricante = frabricante;
         cantidadVehiculos++;
+        frabricante.setCantidadvehiculos();
     }
 
     public String getPlaca() {
