@@ -7,12 +7,12 @@ import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 
+import vehiculos.Vehiculo;
 import vehiculos.Automovil;
 import vehiculos.Camion;
 import vehiculos.Camioneta;
 import vehiculos.Fabricante;
 import vehiculos.Pais;
-import vehiculos.Vehiculo;
 
 
 @TestMethodOrder(MethodOrderer.Alphanumeric.class)
